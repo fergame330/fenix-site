@@ -173,11 +173,11 @@ footer{
     box-shadow: 0 -1px 6px 3px rgba(0,0,0,.54)
 }
 
-.contato-1-image:hover .contato-1-icon img {
+.contato-1-image:hover .contato-1-banner img {
     transform: scale(1.04)
 }
 
-.contato-1-image:hover .contato-1-banner img {
+.contato-1-image:hover .contato-1-icon img {
     background-color: #030404;
     border: 5px solid #030404
 }

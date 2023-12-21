@@ -6,3 +6,10 @@ let a=(i,t,p)=>{let l=0,x=0,d=!1,c=document.querySelectorAll(i),f=()=>{const o=t
 a('#typingtext',["venda de servers do discord","venda de bots de economia","venda de bots de diversão","venda de bots de autovendas","venda de bots de ticket","venda de bots de ranking"],4500);
 document.body.appendChild(Object.assign(document.createElement("style"),{type:"text/css",innerHTML:"#typingtext>.wrap{border-right:.08em solid #fff}"}));
 let redirect=(url)=>{window.location.href = url}
+let scrolto = (vert, hor) => {
+    window.scroll({
+    top: vert,
+    left: hor,
+    behavior: "smooth",
+  })
+}
