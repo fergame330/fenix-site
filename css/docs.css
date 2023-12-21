@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;400&amp;display=swap");
+@font-face {
+    font-family: Heavitas;
+    src: url(../fonts/Heavitas.woff2) format("woff2"),url(../fonts/Heavitas.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+::-webkit-scrollbar-thumb {
+    background: #1e0616d8;
+    border-radius: 10px;
+    -webkit-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+header{
+    background-color: #1E0616;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    height: 15%;
+    color: white;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 4%;
+    justify-content: left;
+    width: 100%;
+}
+header ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+navopt{
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15pt;
+}
+navopt:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.right-side{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-right: 4%;
+    width: 100%;
+}
+body{
+    background-color: #28292c;
+}
+main{
+    margin-top: 5%;
+    min-height: 100vh;
+}
+footer{
+    background-color: #1E0616;
+    height: 4%;
+    display: flex;
+    margin-top: 3.7%;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Overpass',Heavitas,sans-serif;
+    color:#ffffff;
+}
+#logo{
+    width: 50pt;
+}
+.docs_container{
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 100px auto 0;
+    box-sizing: border-box;
+    font-family: 'Overpass',sans-serif;
+    color: #fff;
+    display: block;
+}
+.docs_container section{
+    margin-top: 75px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass',sans-serif;
+    color: #fff;
+    display: block;
+}
+.docs_container section h2{
+    font-size: 2rem;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass',sans-serif;
+    color: #fff;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    display: block;
+}
+.docs_container section p{
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass',sans-serif;
+    color: #fff;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.docs_list{
+    background-color: rgba(0,0,0,.51);
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    font-family: 'Overpass',sans-serif;
+    color: #fff;
+    display: block;
+}
+.docs_list div{
+    margin-bottom: 35px;
+    border-bottom: 1px solid #ffffff14;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    font-family: 'Overpass',sans-serif;
+    color: #fff;
+    display: block;
+}
+.docs_list div h3{
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass',sans-serif;
+    color: #fff;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.docs_list div p{
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass',sans-serif;
+    color: #fff;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.docs_list div table{
+    width: 100%;
+    margin: 10px 0;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass',sans-serif;
+    color: #fff;
+    display: table;
+    text-indent: initial;
+    line-height: normal;
+    font-weight: normal;
+    font-style: normal;
+    text-align: start;
+    border-spacing: 2px;
+    border-color: gray;
+    white-space: normal;
+    font-variant: normal;
+}
+.docs_list div table thead{
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass',sans-serif;
+    color: #fff;
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    border-collapse: collapse;
+    font-size: 14px;
+    text-indent: initial;
+    line-height: normal;
+    font-weight: normal;
+    font-style: normal;
+    text-align: start;
+    border-spacing: 2px;
+    white-space: normal;
+    font-variant: normal;
+}
+.docs_list div table thead tr{
+    background-color: #1e2124;
+    border-bottom: 1px solid #040405;
+    text-transform: uppercase;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass',sans-serif;
+    color: #fff;
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    border-collapse: collapse;
+    font-size: 14px;
+    text-indent: initial;
+    line-height: normal;
+    font-weight: normal;
+    font-style: normal;
+    text-align: start;
+    border-spacing: 2px;
+    white-space: normal;
+    font-variant: normal;
+}
+.titlesec{
+    font-size: 2.1rem !important;
+}
+.docs_list div table thead tr th{
+    padding: 10px;
+    text-align: left;
+    color: #ffffffc7;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Overpass',sans-serif;
+    margin: 0;
+    display: table-cell;
+    vertical-align: inherit;
+    text-transform: uppercase;
+    border-collapse: collapse;
+    font-size: 14px;
+    text-indent: initial;
+    line-height: normal;
+    font-style: normal;
+    border-spacing: 2px;
+    white-space: normal;
+    font-variant: normal;
+}
+.docs_list div table tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass',sans-serif;
+    color: #fff;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-indent: initial;
+    line-height: normal;
+    font-weight: normal;
+    font-style: normal;
+    text-align: start;
+    border-spacing: 2px;
+    white-space: normal;
+    font-variant: normal;
+}
+.docs_list div table tbody tr{
+    background-color: #101012;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass',sans-serif;
+    color: #fff;
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    border-collapse: collapse;
+    font-size: 14px;
+    text-indent: initial;
+    line-height: normal;
+    font-weight: normal;
+    font-style: normal;
+    text-align: start;
+    border-spacing: 2px;
+    white-space: normal;
+    font-variant: normal;
+}
+.docs_list div table tbody tr td{
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 200;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass',sans-serif;
+    color: #fff;
+    display: table-cell;
+    vertical-align: inherit;
+    border-collapse: collapse;
+    text-indent: initial;
+    line-height: normal;
+    font-style: normal;
+    text-align: start;
+    border-spacing: 2px;
+    white-space: normal;
+    font-variant: normal;
+}
+.docs_title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass',sans-serif;
+    color: #fff;
+}
+.docs_title h1{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass',sans-serif;
+    color: #fff;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.docs_title p{
+    font-size: 1.3rem;
+    font-weight: 200;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass',sans-serif;
+    color: #fff;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
