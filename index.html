@@ -18,13 +18,13 @@
         <header>
             <ul>
                 <li><img id="logo" src="./imgs/logo.jpg"></li>
-                <li><navopt>Início</navopt></li>
+                <li><navopt onclick="redirect('')">Início</navopt></li>
                 <li onclick="scrolto(1150)"><navopt>Contato</navopt></li>
-                <li><navopt>Produtos</navopt></li>
+                <li><navopt onclick="redirect('./produtos.html')">Produtos</navopt></li>
             </ul>
             <ul class="right-side">
-                <li><navopt>Documentação</navopt></li>
-                <li><navopt>Login</navopt></li>
+                <li><navopt onclick="redirect('./docs.html')">Documentação</navopt></li>
+                <li><navopt onclick="redirect('./login.html')">Login</navopt></li>
             </ul>
         </header>
         <main>
