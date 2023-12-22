@@ -89,22 +89,22 @@ section{
     justify-content: center;
 }
 article {
-    height: 400px;
+    height: 300px;
     margin: 50px;
     box-shadow: 5px 5px 20px black;
     overflow: hidden;
 }
 main img{
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 400px;
     border-radius: 3px;
     transition: .5s;
 }
 .intro{
     height: 70px;
-    width: 300px;
+    width: 400px;
     padding: 6px;
-    bottom: 3%;
+    bottom: 20%;
     box-sizing: border-box;
     position: absolute;
     background: rgba(27, 27 ,27, .5);
@@ -126,8 +126,8 @@ main img{
 }
 .card:hover .intro{
     height: 220px;
-    bottom: 3%;
-    background: black;
+    bottom: 20%;
+    background: rgba(27, 27 ,27, .8);
 }
 .card:hover p{
     opacity: 1;
