@@ -47,10 +47,6 @@ navopt{
     font-family: 'Overpass', sans-serif;
     font-size: 15pt;
 }
-navopt:hover{
-    cursor: pointer;
-    text-decoration: underline;
-}
 .right-side{
     display: flex;
     flex-direction: row;
@@ -59,6 +55,29 @@ navopt:hover{
     justify-content: right;
     margin-right: 4%;
     width: 100%;
+}
+li{
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+  
+li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: center;
+    transition: transform 0.25s ease-out;
+}
+  
+li:hover:after {
+    transform: scaleX(1);
+    transform-origin: center;
 }
 body{
     background-color: #28292c;
