@@ -140,9 +140,6 @@ main img{
     visibility: hidden;
     opacity: 0;
 }
-.card:hover{
-    cursor: pointer;
-}
 .card:hover .intro{
     height: 220px;
     bottom: 20%;
@@ -159,6 +156,7 @@ main img{
 p a{
     text-decoration: none;
     color: grey;
+    cursor: pointer;
 }
 footer{
     background-color: #1E0616;
