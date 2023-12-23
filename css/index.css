@@ -56,13 +56,13 @@ navopt{
     margin-right: 4%;
     width: 100%;
 }
-li{
+.underline{
     display: inline-block;
     position: relative;
     color: white;
 }
   
-li:after {
+.underline:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -75,7 +75,7 @@ li:after {
     transition: transform 0.25s ease-out;
 }
   
-li:hover:after {
+.underline:hover:after {
     transform: scaleX(1);
     transform-origin: center;
 }
