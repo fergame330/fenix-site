@@ -47,10 +47,7 @@ navopt{
     font-family: 'Overpass', sans-serif;
     font-size: 15pt;
 }
-navopt:hover{
-    cursor: pointer;
-    text-decoration: underline;
-}
+
 .right-side{
     display: flex;
     flex-direction: row;
