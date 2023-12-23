@@ -61,6 +61,7 @@ navopt{
     display: inline-block;
     position: relative;
     color: white;
+    cursor: pointer;
 }
   
 .underline:after {
