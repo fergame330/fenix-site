@@ -206,7 +206,27 @@ main{
     text-decoration: underline;
 }
 
-button sv
+.other-opt{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.other-opt .bg{
+    display: flex;
+    justify-content: center;
+    height: 24px;
+    width: 26px;
+    background-color: white;
+    border-radius: 40%;
+}
+
+.other-opt a{
+    cursor: pointer;
+    
+}
+
 footer{
     background-color: #1E0616;
     height: 4%;
