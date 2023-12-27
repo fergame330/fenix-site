@@ -58,9 +58,15 @@ function mostrarMedidas() {
         transform: scaleX(1);
         transform-origin: center;
       }
+      .docs_list div table thead tr th{
+        font-size: 8px;
+      }
+      ::-webkit-scrollbar-x{
+        overflow: hidden;
+      }
       </style>`
     break;
-    case largura>690 && largura<990:
+    case largura>=690 && largura<990:
       console.log("media")
       html.innerHTML = `<style>
       .right-side{
@@ -68,6 +74,10 @@ function mostrarMedidas() {
       }
       header ul{
         margin-right: -108%;
+      }
+      .docs_title h1 {
+        margin-block-start: 1.7em;
+        margin-block-end: 0.67em;
       }
       </style>`
     break;
