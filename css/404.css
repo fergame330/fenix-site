@@ -83,10 +83,10 @@ navopt{
 }
 body{
     background-color: #28292c;
-    overflow-y: hidden;
+    overflow-y: hidden; 
 }
 main{
-    margin-top: 5%;
+    padding: 3% 0 2% 0;
     min-height: 80vh;
 }
 footer{
@@ -113,6 +113,7 @@ footer{
     max-width: 1200px;
     margin: 60px auto;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
