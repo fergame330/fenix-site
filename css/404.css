@@ -104,6 +104,12 @@ footer{
 #logo{
     width: 50pt;
 }
+#menu{
+    display:none;
+    visibility:hidden;
+    opacity:0;
+    width: 50pt;
+}
 .container{
     max-width: 1200px;
     margin: 100px auto;
