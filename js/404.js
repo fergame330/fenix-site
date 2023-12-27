@@ -20,7 +20,7 @@ function mostrarMedidas() {
   let html = document.getElementById("responsivity")
   switch (true) {
     case largura<690:
-      console.log("Smartfone")
+      console.log("Smartphone")
       html.innerHTML = `<style>
       #menu{
         display:inline-block;

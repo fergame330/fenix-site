@@ -6,6 +6,12 @@
     font-style: normal;
     font-display: swap
 }
+#menu{
+    display:none;
+    visibility:hidden;
+    opacity:0;
+    width: 50pt;
+}
 ::-webkit-scrollbar-thumb {
     background: #1e0616d8;
     border-radius: 10px;

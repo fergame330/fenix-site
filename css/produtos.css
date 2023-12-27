@@ -18,6 +18,12 @@
 ::-webkit-scrollbar {
     width: 5px;
 }
+#menu{
+    display:none;
+    visibility:hidden;
+    opacity:0;
+    width: 50pt;
+}
 header{
     background-color: #1E0616;
     display: flex;
