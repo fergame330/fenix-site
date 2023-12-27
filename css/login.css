@@ -219,18 +219,24 @@ main{
     align-items: center;
 }
 
-.other-opt .bg{
+.other-opt .discord, .google{
     display: flex;
     justify-content: center;
     height: 24px;
     width: 26px;
-    background-color: white;
     border-radius: 40%;
 }
 
+.discord{
+    background-color: #5765f2;
+}
+
+.google{
+    background-color: #e74132;
+}
+
 .other-opt a{
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 
 footer{

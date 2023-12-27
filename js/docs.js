@@ -79,6 +79,9 @@ function mostrarMedidas() {
         margin-block-start: 1.7em;
         margin-block-end: 0.67em;
       }
+      ::-webkit-scrollbar-x{
+        overflow: hidden;
+      }
       </style>`
     break;
     default:

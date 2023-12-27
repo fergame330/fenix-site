@@ -58,9 +58,13 @@ function mostrarMedidas() {
         transform: scaleX(1);
         transform-origin: center;
       }
+
+      .wrapper{
+        margin-top: 20%;
+      }
       </style>`
     break;
-    case largura>690 && largura<990:
+    case largura>=690 && largura<990:
       console.log("media")
       html.innerHTML = `<style>
       .right-side{
@@ -68,6 +72,10 @@ function mostrarMedidas() {
       }
       header ul{
         margin-right: -108%;
+      }
+
+      .wrapper{
+        margin-top: 7.5%;
       }
       </style>`
     break;
