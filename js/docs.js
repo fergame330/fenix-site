@@ -62,7 +62,7 @@ function mostrarMedidas() {
         font-size: 8px;
       }
       ::-webkit-scrollbar-x{
-        overflow: hidden;
+        display: none;
       }
       </style>`
     break;
@@ -80,7 +80,7 @@ function mostrarMedidas() {
         margin-block-end: 0.67em;
       }
       ::-webkit-scrollbar-x{
-        overflow: hidden;
+        display: none;
       }
       </style>`
     break;
