@@ -37,7 +37,6 @@ function mostrarMedidas() {
         visibility:visible;
         opacity:100;
         width: 30pt;
-        margin-right: 15px;
       }
       .underline{
         display:none;
@@ -76,10 +75,10 @@ function mostrarMedidas() {
       }
       .introd-title h1 {
         margin-top: 0; 
-        font-size: 5rem;
+        font-size: 4rem;
       }
       .introd-title p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
       }
 
       .project-1-description {
