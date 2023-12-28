@@ -26,11 +26,18 @@ function mostrarMedidas() {
     case largura<690:
       console.log("Smartphone")
       html.innerHTML = `<style>
+      header{
+        height: 9%;
+      }
+      #logo {
+        width: 36pt;
+      }
       #menu{
         display:inline-block;
         visibility:visible;
         opacity:100;
-        width: 40pt;
+        width: 30pt;
+        margin-right: 15px;
       }
       .underline{
         display:none;
@@ -61,6 +68,14 @@ function mostrarMedidas() {
         opacity:0;
         transform: scaleX(1);
         transform-origin: center;
+      }
+
+      .firstsec {
+        margin-top: 16%;
+      }
+
+      .project-1-description {
+        width: 300px;
       }
       </style>`
     break;

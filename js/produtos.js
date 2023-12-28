@@ -60,7 +60,7 @@ function mostrarMedidas() {
       }
       </style>`
     break;
-    case largura>690 && largura<990:
+    case largura>=690 && largura<990:
       console.log("media")
       html.innerHTML = `<style>
       .right-side{
