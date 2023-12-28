@@ -72,6 +72,14 @@ function mostrarMedidas() {
 
       .firstsec {
         margin-top: 16%;
+        height: 60vh;
+      }
+      .introd-title h1 {
+        margin-top: 0; 
+        font-size: 5rem;
+      }
+      .introd-title p {
+        font-size: 1.5rem;
       }
 
       .project-1-description {
@@ -87,6 +95,17 @@ function mostrarMedidas() {
       }
       header ul{
         margin-right: -108%;
+      }
+
+      .firstsec{
+        margin-top: 16%;
+      }
+      .introd-title h1 {
+        margin-top: 0; 
+        font-size: 6rem;
+      }
+      .introd-title p {
+        font-size: 1.2rem;
       }
       </style>`
     break;

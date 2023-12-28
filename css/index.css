@@ -87,7 +87,8 @@ navopt{
     transform-origin: center;
 }
 body{
-    background-color: #28292c;
+    background: rgb(40,41,44);
+    background: linear-gradient(0deg, rgba(40,41,44,1) 10%, rgba(1,4,9,1) 100%);
 }
 main{
     margin-top: 5%;
