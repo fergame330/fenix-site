@@ -64,6 +64,13 @@ function mostrarMedidas() {
       ::-webkit-scrollbar-x{
         display: none;
       }
+
+      .docs_title h1 {
+        font-size: 2.8rem;
+      }
+      .docs_title p {
+        font-size: 1.6rem;
+      }
       </style>`
     break;
     case largura>=690 && largura<990:
