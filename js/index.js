@@ -71,13 +71,20 @@ function mostrarMedidas() {
 
       .firstsec {
         margin-top: 16%;
-        height: 60vh;
+        height: 45vh;
+      }
+      .introd-title{
+        margin-top:20%;
       }
       .introd-title h1 {
         margin-top: 0; 
         font-size: 4rem;
+        padding: 0 1px 0 1px;
       }
       .introd-title p {
+        font-size: 1.3rem;
+      }
+      .common-title p{
         font-size: 1.3rem;
       }
 
@@ -98,9 +105,10 @@ function mostrarMedidas() {
 
       .firstsec{
         margin-top: 16%;
+        height: 45vh;
       }
       .introd-title h1 {
-        margin-top: 0; 
+        margin-top: 17%; 
         font-size: 6rem;
       }
       .introd-title p {
